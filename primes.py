@@ -1,5 +1,3 @@
-from testprime import testP
-
 class Primes:
     memory = []
     
@@ -43,6 +41,4 @@ class Primes:
             if numbers[idx] == numbers[-1]:
                 break
             idx = idx + 1
-        return numbers
-
-print Primes.first(168) == testP      
+        return numbers    
